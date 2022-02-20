@@ -13,7 +13,9 @@
 	define ('BLOCK_PATH'		, APPLICATION_PATH . 'block' . DS);		// Định nghĩa đường dẫn đến thư mục module							
 	define ('TEMPLATE_PATH'		, PUBLIC_PATH . 'template' . DS);			// Định nghĩa đường dẫn đến thư mục public							
 	
-	define	('ROOT_URL'			, DS . 'HOANGY-MOBILE' . DS);
+	// define	('ROOT_URL'			, DS . '---BaiMaucuaThayLan/HOANGY-MOBILE' . DS);
+	// define	('ROOT_URL'			, DS . 'HOANGY-MOBILE' . DS);
+	define	('ROOT_URL'			, DS );
 	define	('APPLICATION_URL'	, ROOT_URL . 'application' . DS);
 	define	('PUBLIC_URL'		, ROOT_URL . 'public' . DS);
 	define	('UPLOAD_URL'		, PUBLIC_URL . 'files' . DS);
