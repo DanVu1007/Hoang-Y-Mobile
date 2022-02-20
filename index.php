@@ -1,5 +1,4 @@
 <?php
-	
 	require_once 'define.php';
 
     spl_autoload_register('myautoload');
