@@ -24,10 +24,10 @@
 	define	('DEFAULT_ACTION'		, 'index');
 
 	// ====================== DATABASE ===========================
-	define ('DB_HOST'			, 'localhost');
-	define ('DB_USER'			, 'root');						
-	define ('DB_PASS'			, '');						
-	define ('DB_NAME'			, 'hoangy_mobile');						
+	define ('DB_HOST'			, 'us-cdbr-east-05.cleardb.net');
+	define ('DB_USER'			, 'bf5dbc5d7a2f37');						
+	define ('DB_PASS'			, '2b686b07');						
+	define ('DB_NAME'			, 'heroku_5e3bb6d646de7a0');						
 	define ('DB_TABLE'			, 'group');						
  
 	// ====================== TABLE ===========================
