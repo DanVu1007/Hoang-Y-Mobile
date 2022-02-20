@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html{
+        background-color: aqua;
+    }
+
+    .box{
+        background-color: brown;
+        display: inline-block;
+        margin: 0 auto;
+        padding: 20px;    
+    }
+
+    .box.active{
+        background-color: black;
+        color: white;
+    }
+
+    .add,.remove{
+        padding: 5px;
+        background-color: burlywood;
+        display: inline-block;
+    }
+</style>
+
+<body>
+    <div class="box">
+        DAnbmt
+    </div>
+
+    <div class="add">
+        add class
+    </div>
+    <div class="remove">
+        remove class
+    </div>
+</body>
+</html>
+
+<script src="../js/jquery-3.6.0.min.js"></script>
+<script>
+    $('.add').click(function(){
+        $('.box').addClass('active');
+    })
+    $('.remove').click(function(){
+        $('.box').removeClass('active');
+    })
+</script>
