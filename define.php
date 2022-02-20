@@ -15,7 +15,7 @@
 	
 	// define	('ROOT_URL'			, DS . '---BaiMaucuaThayLan/HOANGY-MOBILE' . DS);
 	// define	('ROOT_URL'			, DS . 'HOANGY-MOBILE' . DS);
-	define	('ROOT_URL'			, 	 dirname(__FILE__)).DS;
+	define	('ROOT_URL'			, 	'../'. dirname(__FILE__)).'/';
 	define	('APPLICATION_URL'	, ROOT_URL . 'application' . DS);
 	define	('PUBLIC_URL'		, ROOT_URL . 'public' . DS);
 	define	('UPLOAD_URL'		, PUBLIC_URL . 'files' . DS);
