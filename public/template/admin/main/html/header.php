@@ -26,7 +26,7 @@
 
   <header class="main-header">
     <!-- Logo -->
-    <a href="http://localhost/---BaiMaucuaThayLan/HOANGY-MOBILE/" class="logo">
+    <a href="http://localhost/HOANGY-MOBILE/" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>H</b>Y</span>
       <!-- logo for regular state and mobile devices -->
